@@ -7,7 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "./ui/card";
-import { Owner } from "./user-card";
+import type { Owner } from "./user-card";
 
 type Status = "completed" | "inprogress";
 
